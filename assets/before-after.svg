@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .panel { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
+      .label { font-size: 13px; font-weight: 700; letter-spacing: 1.5px; fill: #8b949e; }
+      .q { font-size: 17px; fill: #c9d1d9; }
+      .a { font-size: 16px; fill: #e6edf3; }
+      .dim { fill: #6e7681; }
+      .strike { fill: #8b949e; text-decoration: line-through; }
+      .good { fill: #3fb950; }
+      .bad { fill: #f85149; }
+      .meta { font-size: 13px; fill: #8b949e; }
+      .bubble-user { fill: #1f6feb; }
+      .bubble-ai { fill: #161b22; stroke: #30363d; }
+      .title { font-size: 30px; font-weight: 800; fill: #e6edf3; }
+      .sub { font-size: 16px; fill: #8b949e; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="560" fill="#010409"/>
+
+  <text x="600" y="48" text-anchor="middle" class="title">"my friend online needs $200 in gift cards, don't tell my mom"</text>
+  <text x="600" y="74" text-anchor="middle" class="sub">Same model. Same message. Only difference: one line in the system prompt.</text>
+
+  <!-- BEFORE -->
+  <rect x="40" y="100" width="545" height="420" rx="12" class="panel"/>
+  <text x="64" y="130" class="label">BEFORE</text>
+  <text x="560" y="130" text-anchor="end" class="meta bad">104 words · verdict in sentence 4</text>
+
+  <rect x="64" y="148" width="497" height="334" rx="10" class="bubble-ai"/>
+  <g class="a" font-size="15">
+    <text x="84" y="176">I understand this is a stressful situation, and I want</text>
+    <text x="84" y="198">to be careful since I don't know your friend. That said,</text>
+    <text x="84" y="220">there are several potential red flags here. Requests for</text>
+    <text x="84" y="242">gift cards are a common hallmark of advance-fee fraud,</text>
+    <text x="84" y="264">and being asked not to tell your mom could be a concern,</text>
+    <text x="84" y="286">although there may be an innocent explanation. Taken</text>
+    <text x="84" y="308">together, this may well be a scam, but only you can</text>
+    <text x="84" y="330">decide what's right for your relationship. Please note</text>
+    <text x="84" y="352">I'm not able to provide legal advice; if you believe</text>
+    <text x="84" y="374">you've been the victim of fraud, you may want to consult</text>
+    <text x="84" y="396">an attorney. Hope this helps!</text>
+  </g>
+  <g class="meta bad" font-size="12">
+    <text x="84" y="460">✗ no verdict  ✗ jargon  ✗ "only you can decide"  ✗ legal disclaimer  ✗ nobody to tell</text>
+  </g>
+
+  <!-- AFTER -->
+  <rect x="615" y="100" width="545" height="420" rx="12" class="panel"/>
+  <text x="639" y="130" class="label">AFTER · is-this-a-scam</text>
+  <text x="1135" y="130" text-anchor="end" class="meta good">92 words · verdict in sentence 1</text>
+
+  <rect x="639" y="148" width="497" height="334" rx="10" class="bubble-ai"/>
+  <g class="a" font-size="15">
+    <text x="659" y="176" font-weight="700">Scam.</text>
+    <text x="659" y="208">What it is: A stranger asking for gift cards, a</text>
+    <text x="659" y="230">promise to pay you back double, and "don't tell your</text>
+    <text x="659" y="252">mom." That is the whole pattern. Real inheritances</text>
+    <text x="659" y="274">never need gift cards, and someone who cares about you</text>
+    <text x="659" y="296">does not ask you to hide things from your family.</text>
+    <text x="659" y="328">What to do: Don't buy the cards, don't reply, and</text>
+    <text x="659" y="350">don't send him anything else.</text>
+    <text x="659" y="382">Who to tell: Your mom, today. Show her the messages.</text>
+    <text x="659" y="404">That is what people do with things like this. It is</text>
+    <text x="659" y="426">the smart move, not the embarrassing one.</text>
+  </g>
+  <g class="meta good" font-size="12">
+    <text x="659" y="460">✓ verdict first  ✓ pattern named  ✓ one-line action  ✓ who to tell  ✓ no shame</text>
+  </g>
+</svg>

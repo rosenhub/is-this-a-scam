@@ -1,0 +1,30 @@
+name: New scam pattern
+description: A scam the skill did not name, or named wrong
+labels: [pattern]
+body:
+  - type: textarea
+    id: message
+    attributes:
+      label: The message (redacted)
+      description: Paste the text, email, DM, or describe the call. Remove names, phone numbers, links, account numbers and anything that identifies a real person.
+    validations:
+      required: true
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Where it came from
+      options: ["Text message", "Email", "Phone call", "Voicemail", "Social media DM", "Dating app", "Pop-up on a computer", "Letter in the mail", "In person", "Other"]
+    validations:
+      required: true
+  - type: input
+    id: target
+    attributes:
+      label: Who it targeted
+      description: In general terms, e.g. "older adult living alone", "adult with IDD who uses Facebook", "anyone with a Medicare card". No names.
+    validations:
+      required: true
+  - type: textarea
+    id: response
+    attributes:
+      label: What the agent said, if you asked it
+      description: Optional. Paste the response with the skill installed so we can see where it went wrong.
