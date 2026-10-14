@@ -22,7 +22,7 @@
 npx skills add rosenhub/is-this-a-scam
 ```
 
-<img src="assets/before-after.png" alt="Before: 104 words, verdict in sentence 4, jargon, 'only you can decide', legal disclaimer, nobody to tell. After: 92 words, verdict in sentence 1, pattern named, one-line action, who to tell, no shame." width="100%">
+<img src="assets/before-after.png" alt="Before: 104 words · verdict in sentence 4. After: 82 words · verdict in word 1. An adult with IDD, putting on their coat to go buy the gift cards." width="100%">
 
 Part of [AI Their Way](https://github.com/rosenhub/ai-their-way) — siblings: [no-subtext](https://github.com/rosenhub/no-subtext) · [what-did-they-mean](https://github.com/rosenhub/what-did-they-mean) · [never-say-remember](https://github.com/rosenhub/never-say-remember) · [easy-read](https://github.com/rosenhub/easy-read) · [presume-competence](https://github.com/rosenhub/presume-competence) · [low-demand](https://github.com/rosenhub/low-demand) · [one-thing](https://github.com/rosenhub/one-thing)
 
@@ -88,6 +88,8 @@ If your host isn't here and it reads markdown instructions from a file, it works
 Same model. Same message. The only change is the skill.
 
 ### "my friend online says he needs $200 in apple gift cards to unlock his inheritance and then he'll pay me back double, he said not to tell my mom"
+
+*An adult with IDD, putting on their coat to go buy the gift cards.*
 
 **Before**
 
