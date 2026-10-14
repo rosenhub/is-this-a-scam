@@ -14,7 +14,6 @@
 [![Status](https://img.shields.io/badge/status-v1.0-brightgreen?style=flat-square)](CHANGELOG.md)
 [![ScamBench](https://img.shields.io/badge/ScamBench-run%20it-orange?style=flat-square)](eval/)
 
-**把它贴进来，马上知道是不是骗局。为智力与发展障碍人士和老年人设计，对所有人更好。**
 
 [Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#scambench) · [Why not X](#why-not-norton--mcafee--your-banks-fraud-line--compass) · [FAQ](#faq)
 
